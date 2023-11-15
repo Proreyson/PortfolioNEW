@@ -39,7 +39,7 @@ function Project() {
                       </button>
                     </a>
                   </div>
-                  <small className="text-muted">9 views</small>
+                  <small className="text-muted fw-bold">Nayon's Coffee</small>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ function Project() {
                       </button>
                     </a>
                   </div>
-                  <small className="text-muted">9 views</small>
+                  <small className="text-muted fw-bold">Ehub</small>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ function Project() {
                       </button>
                     </a>
                   </div>
-                  <small className="text-muted">9 views</small>
+                  <small className="text-muted fw-bold">Fuel Flow</small>
                 </div>
               </div>
             </div>
@@ -123,8 +123,7 @@ function Project() {
             <div
               className="card shadow-sm"
               data-aos="fade-up"
-     data-aos-duration="3000"
-             
+              data-aos-duration="3000"
             >
               <svg
                 className="bd-placeholder-img card-img-top"
