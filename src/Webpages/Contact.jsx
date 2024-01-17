@@ -41,7 +41,7 @@ function Contact() {
                     <input
                       type="text"
                       className="form-control"
-                      id="floatingInput"
+                      id="name"
                       placeholder="name@example.com"
                     />
                     <label for="floatingInput">Name</label>
@@ -50,7 +50,7 @@ function Contact() {
                     <input
                       type="email"
                       className="form-control"
-                      id="floatingPassword"
+                      id="email"
                       placeholder="Name"
                     />
                     <label for="floatingPassword">Email address</label>
@@ -60,10 +60,7 @@ function Contact() {
                   </div>
 
                   <div className="form-floating mt-3">
-                    <textarea
-                      className="form-control"
-                      id="floatingTextarea"
-                    ></textarea>
+                    <textarea className="form-control"></textarea>
                     <label for="floatingTextarea">Comments</label>
                   </div>
 

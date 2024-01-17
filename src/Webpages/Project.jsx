@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import projectOne from "../assets/coffeenayon.jpeg";
 import projectTwo from "../assets/ehub.jpeg";
 import projectThree from "../assets/fuelflow.jpeg";
+import projectFour from "../assets/i30.jpeg";
 
 function Project() {
   return (
@@ -119,54 +120,46 @@ function Project() {
               </div>
             </div>
           </div>
+
           <div className="col">
             <div
               className="card shadow-sm"
-              data-aos="fade-up"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
               data-aos-duration="3000"
             >
-              <svg
+              <img
+                src={projectFour}
                 className="bd-placeholder-img card-img-top"
+                alt="Card Image"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              />
               <div className="card-body">
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  "i30 Degree Electronics Services and Industrial Supplies
+                  Trading, our mission is to provide high-quality electronics
+                  and industrial products and services to maintain the
+                  efficiency and satisfaction of our customers. ",
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
-                      type="button"
-                      className="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      className="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
+                    <a href="https://i30degree-proreyson.vercel.app/?fbclid=IwAR3tK8_RcxJ2QGt7aZEMsMptI0PHgAJzUaVTScHFtLQYVQqZnbxBDa32lDM">
+                      {" "}
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </a>
                   </div>
-                  <small className="text-muted">9 views</small>
+                  <small className="text-muted fw-bold">I30 DEGREE</small>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="col">
             <div
               className="card shadow-sm"
